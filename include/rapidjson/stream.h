@@ -138,6 +138,7 @@ public:
 
 protected:
     InputStream& is_;
+    InputStream& someUnusedInputStream_;
 };
 
 #if defined(_MSC_VER) && _MSC_VER <= 1800
